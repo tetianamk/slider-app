@@ -1,0 +1,36 @@
+.imageSlider {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 850px;
+  border-radius: 12px;
+}
+#left {
+  position: absolute;
+  top: 200px;
+  left: 1250px;
+  color: white;
+  background-color: #746656;
+  border: none;
+  width: 29px;
+  height: 29px;
+}
+#right {
+  position: absolute;
+  top: 200px;
+  left: 550px;
+  color: white;
+  background-color: #746656;
+  border: none;
+  width: 29px;
+  height: 29px;
+}
+
+#left:hover,
+#right:hover {
+  background-color: #434340;
+  color: rgb(30, 17, 17);
+}
